@@ -1,12 +1,9 @@
-module Sort.QuickSortSpec (main, spec) where
+module Sort.QuickSortSpec (spec) where
 
 import Test.Hspec
 import Test.QuickCheck
 
 import Sort.QuickSort
-
-main :: IO ()
-main = hspec spec
 
 spec :: Spec
 spec =
