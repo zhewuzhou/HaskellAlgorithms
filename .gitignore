@@ -2,6 +2,7 @@
 
 ### Haskell ###
 dist
+TAGS
 dist-*
 cabal-dev
 .DS_Store
