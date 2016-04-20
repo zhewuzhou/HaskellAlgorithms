@@ -1,7 +1,7 @@
 module Sort.QuickSort (quicksort) where
 
 quicksort :: (Ord a) => [a] -> [a]
-quicksort [] = []          
+quicksort [] = []
 quicksort (x:xs) =
   let smallerSorted =
         quicksort [a | a <- xs
